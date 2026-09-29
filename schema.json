@@ -1,0 +1,8 @@
+{
+  "project": "TaskManagerApp",
+  "endpoints": {
+    "get_tasks": {"path": "/api/tasks/", "method": "GET"},
+    "add_task": {"path": "/api/tasks/", "method": "POST"},
+    "delete_task": {"path": "/api/tasks/{id}", "method": "DELETE"}
+  }
+}
